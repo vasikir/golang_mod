@@ -1,12 +1,10 @@
 package maths
 
-import "fmt"
-
 var a = 1
 var b = -4
-var Summ int
+var Summ = a + b
 
-func addition() {
-	Summ = a + b
-	fmt.Println(Summ)
-}
+// func addition() {
+// 	Summ = a + b
+// 	fmt.Println(Summ)
+// }
